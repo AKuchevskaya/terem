@@ -6,7 +6,7 @@
 1.1 Сделать HTML страницу с тэгами title "Тест", заполнить тэг meta
 description lorem ipsum  
 1.2 Подключить к странице jQuery и Bootstrap актуальной версии из веб
-репозитория  
+репозитория   
 1.3 Сверстать следующую структуру  
 блок во всю ширину страницы  
 под ним 3 блока равного размера, расположенных на одном уровне по горизонтали  
@@ -52,4 +52,13 @@ description lorem ipsum
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+
+Сборку можно запустить командой  
+
+`npm run build`  
+
+Откроется сайт по адресу localhost:8080 при помощи команды  
+
+`npm run dev`  

@@ -1,0 +1,33 @@
+{
+  "name": "terem",
+  "version": "1.0.0",
+  "description": "Тестовое задание для компании Теремъ:",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf dist && webpack --mode production",
+    "dev": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AKuchevskaya/terem.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AKuchevskaya/terem/issues"
+  },
+  "homepage": "https://github.com/AKuchevskaya/terem#readme",
+  "dependencies": {
+    "core-js": "^3.27.2",
+    "jquery": "^3.6.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.2",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
