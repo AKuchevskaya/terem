@@ -1,4 +1,5 @@
 .container__main_clr-red {
     background-color: red;
+    display: flex;
     order: 2;
 }

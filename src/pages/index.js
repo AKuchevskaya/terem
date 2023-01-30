@@ -4,6 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {  Tooltip, Toast, Popover } from 'bootstrap';
 
 const headerBlock = document.querySelector('.container__header');
+const blueBlock = document.querySelector('.container__main_clr-blue');
+const redBlock = document.querySelector('.container__main_clr-red');
 const hideBlockButton = document.querySelector('.btn-warning');
 const changeBlocksButton = document.querySelector('.btn-success');
 
@@ -21,5 +23,24 @@ const changeVisibilityBlock = () => {
         hideBlock();
     }
 }
- 
+
 hideBlockButton.addEventListener('click', changeVisibilityBlock);
+
+const moveRedBlock = () => {
+    redBlock.style.order = '-1'
+    blueBlock.style.order = '1'
+}
+const backRedBlock = () => {
+    redBlock.style.order = '1'
+    blueBlock.style.order = '-1'
+}
+const changeBlocks = () => {
+    console.log(redBlock.style);
+    if (redBlock.style.order == '-1' && blueBlock.style.order == '1') {
+        backRedBlock();
+    } else {
+        moveRedBlock();
+    }
+}
+ 
+changeBlocksButton.addEventListener('click', changeBlocks);
