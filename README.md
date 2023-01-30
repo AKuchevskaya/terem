@@ -47,6 +47,18 @@ description lorem ipsum
 обработчику на том же сервере (в той же папке). В случае, если данные
 дошли, надо получать ответ. Можно выводить его через alert.  
 
+---
+Задания с 1 по 2.3 в папке /src и /src/pages.
+
+Открыть страницу на localhost:8080 можно при помощи команды:  
+
+`npm run dev`  
+
+---
+Задания 2.4 и 2.5 можно найти в папке /second 
+
+---
+
 ## Технологии:  
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
@@ -55,10 +67,3 @@ description lorem ipsum
 ![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 
-Сборку можно запустить командой  
-
-`npm run build`  
-
-Откроется сайт по адресу localhost:8080 при помощи команды  
-
-`npm run dev`  
