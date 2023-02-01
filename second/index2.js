@@ -17,17 +17,18 @@ function getInputs(e) {
 
 form.addEventListener('submit', getInputs);
 
-function getJSON() {
-    fetch('???', {
+
+    fetch('package.json', {
         method: 'GET'
     })
     .then((res) => {
-        return res.json();
+       if (res.ok) {
+        return res.json()
+       } throw new Error();
     })
     .then((data)=>{
-        console.log(data);
+        alert("данные получены");
     })
     .catch((err)=>{
         console.log('ошибка', err);
     })
-}
