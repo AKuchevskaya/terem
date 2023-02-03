@@ -1,11 +1,6 @@
-import './index.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-
-import {  Tooltip, Toast, Popover } from 'bootstrap';
-
 
 const myModal = new bootstrap.Modal(document.getElementById('myModal'), {})
-myModal.toggle()
+myModal.toggle();
 
 const headerBlock = document.querySelector('.container__header');
 const blueBlock = document.querySelector('.container__main_clr-blue');
@@ -39,7 +34,6 @@ const backRedBlock = () => {
     blueBlock.style.order = '-1'
 }
 const changeBlocks = () => {
-    console.log(redBlock.style);
     if (redBlock.style.order == '-1' && blueBlock.style.order == '1') {
         backRedBlock();
     } else {
