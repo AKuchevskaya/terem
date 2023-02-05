@@ -1,3 +1,5 @@
 .container__header {
     background-color: aqua;
+    display: block;
+    border: 1px black solid;
 }

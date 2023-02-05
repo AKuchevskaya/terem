@@ -1,5 +1,4 @@
 .container__main_clr-blue {
     background-color: blue;
-    display: flex;
-    order: 1;
+    border: 1px black solid;
 }
